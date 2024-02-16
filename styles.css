@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.seat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #f00;
+}
